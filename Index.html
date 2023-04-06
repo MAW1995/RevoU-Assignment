@@ -15,14 +15,14 @@
 
     <!-- Navbar -->
     <div class="mainNav">
-        <a href="#" class="navTriangle">SEGITIGA</a>
-        <a href="#">JAJARGENJANG</a>
+        <a href="#Triangle" class="navTriangle">Triangle</a>
+        <a href="#Parallelogram ">Parallelogram</a>
     </div>
 
     <!-- SubNavbar -->
     <div class="subNav">
-        <a href="#" class="subMenu">LUAS</a>
-        <a href="#" class="subMenu">KELILING</a>
+        <a href="#" class="subMenu">Area</a>
+        <a href="#" class="subMenu">Circumference</a>
     </div>
 
     <!-- Caculate Area and Circumference of Triangle -->
@@ -77,14 +77,14 @@
                 </div>
                 <div class="form-calculation">
                     <h1 class="calculate">Calculate Circumference of triangle</h1>
-                    <form onsubmit="return triangle-circle" action="" class="form-triangle" id="triangle_circle">
+                    <form onsubmit="return triangle-circumference" action="" class="form-triangle" id="triangle_circumference">
                         <input id="sideA" name="sideA" onblur="extractNumber(this,3,true);" onkeyup="extractNumber(this,3,true);" onkeypress="return blockNonNumbers(this, event, true, true);" placeholder="Side a Value" type="text" required/>
                         <input id="sideB" name="sideB" onblur="extractNumber(this,3,true);" onkeyup="extractNumber(this,3,true);" onkeypress="return blockNonNumbers(this, event, true, true);" placeholder="Side b Value" type="text" required/>
                         <input id="sideC" name="sideC" onblur="extractNumber(this,3,true);" onkeyup="extractNumber(this,3,true);" onkeypress="return blockNonNumbers(this, event, true, true);" placeholder="Side c Value" type="text" required/>
                         <br/>
-                        <span><span id="result-of-triangle-circle" class="result"></span>
+                        <span><span id="result-of-triangle-circumference" class="result"></span>
                         <br><br/>
-                        <button type="submit" class="button-triangle" onclick="return triangle_circle()">Calculate</button>
+                        <button type="submit" class="button-triangle" onclick="return triangle_circumference()">Calculate</button>
                     </form>
                     <button type="reset" class="button-reset" onclick="reset()">Reset</button>
                 </div>
@@ -137,19 +137,19 @@
                 </div>
                 <div>
                     <p>Where:</p>
-                    <p>C = Circle</p>
+                    <p>C = Circumference</p>
                     <p>a = side a</p>
-                    <b>b = side b</p>
+                    <p>b = side b</p>
                 </div>
                 <div class="form-calculation">
-                    <h1 class="calculate">Calculate circle of parallelogram</h1>
-                    <form onsubmit="parallelogram_circle" action="" class="form-parallelogram" id="parallelogram_circle">
+                    <h1 class="calculate">Calculate Circumference of parallelogram</h1>
+                    <form onsubmit="parallelogram_circumference" action="" class="form-parallelogram" id="parallelogram_circumference">
                         <input id="sideAP" name="sideAP" onblur="extractNumber(this,3,true);" onkeyup="extractNumber(this,3,true);" onkeypress="return blockNonNumbers(this, event, true, true);" placeholder="Side a Value" type="text" required/>
                         <input id="sideBP" name="sideBP" onblur="extractNumber(this,3,true);" onkeyup="extractNumber(this,3,true);" onkeypress="return blockNonNumbers(this, event, true, true);" placeholder="Side b Value" type="text" required/>
                         <br/>
-                        <span><span id="result-of-parallelogram-circle" class="result"></span>
+                        <span><span id="result-of-parallelogram-circumference" class="result"></span>
                         <br><br/>
-                        <button type="submit" class="button-parallelogram" onclick="return parallelogram_circle()">Calculate</button>
+                        <button type="submit" class="button-parallelogram" onclick="return parallelogram_circumference()">Calculate</button>
                     </form>
                     <button type="reset" class="button-reset" onclick="reset()">Reset</button>
                     </form>
