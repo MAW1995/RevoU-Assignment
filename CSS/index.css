@@ -67,6 +67,7 @@
 
 /* Section */
 
+/* Triangle */
 .card-triangle {
     border: 1px aqua solid;
     padding: 20px;
@@ -138,7 +139,7 @@
     border-radius: 6px;
 }
 
-
+/* Parallelogram */
 .card-parallelogram {
     border: 1px rgb(45, 141, 244) solid;
     padding: 20px;
