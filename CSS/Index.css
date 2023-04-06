@@ -63,10 +63,7 @@
     background-color: rgb(45, 141, 244);
     color: white;
 }
-/* Sub title */
-.subtitle{
-    text-align: center;
-}
+
 
 /* Section */
 
@@ -78,7 +75,7 @@
 
 .triangle-subdiv {
     text-decoration: none;
-    background-color: aqua;
+    background-color: rgb(45, 141, 244);
     color: black;
     padding: 20px 20px;
     width: 100%;
@@ -128,7 +125,7 @@
 }
 .button-triangle {
     padding: 6px 8px;
-    background-color: aqua;
+    background-color: rgb(45, 141, 244);
     color: black;
     border: none;
     border-radius: 6px;
@@ -143,7 +140,7 @@
 
 
 .card-parallelogram {
-    border: 1px aqua solid;
+    border: 1px rgb(45, 141, 244) solid;
     padding: 20px;
     margin-top: 20px;
     box-shadow: 10px 9px 11px -3px rgba(29,21,162,0.45);
@@ -151,7 +148,7 @@
 
 .Parallelogram-subdiv {
     text-decoration: none;
-    background-color: aqua;
+    background-color: rgb(45, 141, 244);
     color: black;
     padding: 20px 20px;
     width: 100%;
@@ -175,7 +172,7 @@
 }
 .button-parallelogram {
     padding: 6px 8px;
-    background-color: aqua;
+    background-color: rgb(45, 141, 244);
     color: black;
     border: none;
     border-radius: 6px;
