@@ -46,8 +46,8 @@
             <div class="form-calculation">
                 <h1 class="calculate">Calculate area of triangle</h1>
                 <form action="" class="form-triangle" id="triangle_area">
-                    <input id="base" name="base" onblur="extractNumber(this,3,true);" onkeyup="extractNumber(this,3,true);" onkeypress="return blockNonNumbers(this, event, true, true);" placeholder="Base Value" type="text" pattern="[0-9]{1,5}" required/>
-                    <input id="height" name="height" onblur="extractNumber(this,3,true);" onkeyup="extractNumber(this,3,true);" onkeypress="return blockNonNumbers(this, event, true, true);" placeholder="Height Value" type="text" pattern="[0-9]{1,5}" required/>
+                    <input id="base" name="base" onblur="extractNumber(this,3,true);" onkeyup="extractNumber(this,3,true);" onkeypress="return blockNonNumbers(this, event, true, true);" placeholder="Base Value" type="number" pattern="[0-9]{1,5}" required/>
+                    <input id="height" name="height" onblur="extractNumber(this,3,true);" onkeyup="extractNumber(this,3,true);" onkeypress="return blockNonNumbers(this, event, true, true);" placeholder="Height Value" type="number" pattern="[0-9]{1,5}" required/>
                     <br/>
                     <span><span id="result-of-triangle-area" class="result"></span>
                     <br><br/>
@@ -78,9 +78,9 @@
                 <div class="form-calculation">
                     <h1 class="calculate">Calculate Circumference of triangle</h1>
                     <form onsubmit="return triangle-circumference" action="" class="form-triangle" id="triangle_circumference">
-                        <input id="sideA" name="sideA" onblur="extractNumber(this,3,true);" onkeyup="extractNumber(this,3,true);" onkeypress="return blockNonNumbers(this, event, true, true);" placeholder="Side a Value" type="text" pattern="[0-9]{1,5}" required/>
-                        <input id="sideB" name="sideB" onblur="extractNumber(this,3,true);" onkeyup="extractNumber(this,3,true);" onkeypress="return blockNonNumbers(this, event, true, true);" placeholder="Side b Value" type="text" pattern="[0-9]{1,5}" required/>
-                        <input id="sideC" name="sideC" onblur="extractNumber(this,3,true);" onkeyup="extractNumber(this,3,true);" onkeypress="return blockNonNumbers(this, event, true, true);" placeholder="Side c Value" type="text" pattern="[0-9]{1,5}" required/>
+                        <input id="sideA" name="sideA" onblur="extractNumber(this,3,true);" onkeyup="extractNumber(this,3,true);" onkeypress="return blockNonNumbers(this, event, true, true);" placeholder="Side a Value" type="number" pattern="[0-9]{1,5}" required/>
+                        <input id="sideB" name="sideB" onblur="extractNumber(this,3,true);" onkeyup="extractNumber(this,3,true);" onkeypress="return blockNonNumbers(this, event, true, true);" placeholder="Side b Value" type="number" pattern="[0-9]{1,5}" required/>
+                        <input id="sideC" name="sideC" onblur="extractNumber(this,3,true);" onkeyup="extractNumber(this,3,true);" onkeypress="return blockNonNumbers(this, event, true, true);" placeholder="Side c Value" type="number" pattern="[0-9]{1,5}" required/>
                         <br/>
                         <span><span id="result-of-triangle-circumference" class="result"></span>
                         <br><br/>
@@ -112,8 +112,8 @@
                 <div class="form-calculation">
                     <h1 class="calculate"></h1> Area of parallelogram</h1>
                     <form onsubmit="return parallelogram_area" action="" class="form-parallelogram" id="parallelogram_area">
-                        <input id="baseP" name="baseP" onblur="extractNumber(this,3,true);" onkeyup="extractNumber(this,3,true);" onkeypress="return blockNonNumbers(this, event, true, true);" placeholder="Base Value" type="text" pattern="[0-9]{1,5}" required/>
-                        <input id="heightP" name="heightP" onblur="extractNumber(this,3,true);" onkeyup="extractNumber(this,3,true);" onkeypress="return blockNonNumbers(this, event, true, true);" placeholder="Height Value" type="text" pattern="[0-9]{1,5}" required/>
+                        <input id="baseP" name="baseP" onblur="extractNumber(this,3,true);" onkeyup="extractNumber(this,3,true);" onkeypress="return blockNonNumbers(this, event, true, true);" placeholder="Base Value" type="number" pattern="[0-9]{1,5}" required/>
+                        <input id="heightP" name="heightP" onblur="extractNumber(this,3,true);" onkeyup="extractNumber(this,3,true);" onkeypress="return blockNonNumbers(this, event, true, true);" placeholder="Height Value" type="number" pattern="[0-9]{1,5}" required/>
                         <br/>
                         <span><span id="result-of-parallelogram-area" class="result"></span>
                         <br><br/>
@@ -144,8 +144,8 @@
                 <div class="form-calculation">
                     <h1 class="calculate">Calculate Circumference of parallelogram</h1>
                     <form onsubmit="parallelogram_circumference" action="" class="form-parallelogram" id="parallelogram_circumference">
-                        <input id="sideAP" name="sideAP" onblur="extractNumber(this,3,true);" onkeyup="extractNumber(this,3,true);" onkeypress="return blockNonNumbers(this, event, true, true);" placeholder="Side a Value" type="text" pattern="[0-9]{1,5}" required/>
-                        <input id="sideBP" name="sideBP" onblur="extractNumber(this,3,true);" onkeyup="extractNumber(this,3,true);" onkeypress="return blockNonNumbers(this, event, true, true);" placeholder="Side b Value" type="text" pattern="[0-9]{1,5}" required/>
+                        <input id="sideAP" name="sideAP" onblur="extractNumber(this,3,true);" onkeyup="extractNumber(this,3,true);" onkeypress="return blockNonNumbers(this, event, true, true);" placeholder="Side a Value" type="number" pattern="[0-9]{1,5}" required/>
+                        <input id="sideBP" name="sideBP" onblur="extractNumber(this,3,true);" onkeyup="extractNumber(this,3,true);" onkeypress="return blockNonNumbers(this, event, true, true);" placeholder="Side b Value" type="number" pattern="[0-9]{1,5}" required/>
                         <br/>
                         <span><span id="result-of-parallelogram-circumference" class="result"></span>
                         <br><br/>
