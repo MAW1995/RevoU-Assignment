@@ -13,6 +13,7 @@
 /* Paragraph */
 .paragraph{
     text-align: center;
+    margin: 10px 0px;
 }
 
 /* Navbar */
@@ -24,17 +25,168 @@
     align-items: center;
 }
 
+.mainNav > a {
+    text-decoration: none;
+}
+
+.navTriangle{
+    background-color: rgb(45, 141, 244);
+    color: white;
+    padding: 10px 0px;
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+}
 /* SubNavbar */
 
 .subNav{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 100px;
 }
 
+.subNav > a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.subMenu{
+    color: black;
+    padding: 10px 0px;
+    border-radius: 4px;
+    border-color: black;
+    width: 25%;
+}
+
+.subNav > a.subMenu:hover{
+    background-color: rgb(45, 141, 244);
+    color: white;
+}
 /* Sub title */
 .subtitle{
+    text-align: center;
+}
+
+/* Section */
+
+.triangle-subdiv {
+    text-decoration: none;
+    background-color: aqua;
+    color: black;
+    padding: 20px 20px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+}
+.image-triangle {
+    display: block;
+    padding: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 225px;
+}
+.formula {
+    margin-top: 20px;
+    text-align: center;  
+}
+.subformula {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.explanation {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.calculate{
+    padding: 10px;
+    text-align: center;
+}
+.form-triangle{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.result {
+    display: flex;
+    padding: 10px;
+    background-color: greenyellow;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+.button-triangle {
+    padding: 6px 8px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    border-radius: 6px;
+}
+.button-reset {
+    padding: 6px 8px;
+    background-color: red;
+    color: black;
+    border: none;
+    border-radius: 6px;
+}
+.card-triangle {
+    border: 1px aqua solid;
+    padding: 20px;
+    box-shadow: 10px 9px 11px -3px rgba(29,21,162,0.45);
+}
+
+.Parallelogram-subdiv {
+    text-decoration: none;
+    background-color: aqua;
+    color: black;
+    padding: 20px 20px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+}
+.image-parallelogram {
+    display: block;
+    padding: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+.form-parallelogram{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.button-parallelogram {
+    padding: 6px 8px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    border-radius: 6px;
+}
+.card-parallelogram {
+    border: 1px aqua solid;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 10px 9px 11px -3px rgba(29,21,162,0.45);
+}
+
+.image-footer{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    width: 200px;
+}
+.footer {
+    margin-top: 0px;
     text-align: center;
 }
