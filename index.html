@@ -3,9 +3,10 @@
 <head>
     <title>RevoU - Assignment</title>
     <link rel="stylesheet" type="text/css" href="CSS/index.css">
-    <script src="JS/index.js"></script>
+    
 </head>
 <body>
+    <header>
     <!-- Title -->
     <h1 class="title">Welcome To Katik</h1>
     <p class="paragraph">
@@ -18,15 +19,16 @@
         <a href="#Triangle" class="navTriangle">Triangle</a>
         <a href="#Parallelogram ">Parallelogram</a>
     </div>
+    </header>
 
-    <!-- SubNavbar -->
+    <!-- SubNavbar
     <div class="subNav">
         <a href="#" class="subMenu">Area</a>
         <a href="#" class="subMenu">Circumference</a>
-    </div>
+    </div> -->
 
     <!-- Caculate Area and Circumference of Triangle -->
-    <section id="Triangle">
+    <section id="triangle">
         <!-- Area of Triangle -->
         <div class="card-triangle">
             <div>
@@ -37,7 +39,7 @@
                 <h3 class="formula">Formula :</h3>
                 <p class="subformula">A= 1/2 x base x height</p>
             </div>
-            <div>
+            <div class="where-condition">
                 <p>Where:</p>
                 <p>A = Area</p>
                 <p>a = Base</p>
@@ -68,7 +70,7 @@
                     <h3 class="formula">Formula :</h3>
                     <p class="subformula">C = side a + side b + side c</p>
                 </div>
-                <div>
+                <div class="where-condition">
                     <p>Where:</p>
                     <p>C = Circle</p>
                     <p>a = side a</p>
@@ -103,7 +105,7 @@
                     <h3 class="formula">Formula :</h3>
                     <p class="subformula">A = base x height</p>
                 </div>
-                <div>
+                <div class="where-condition">
                     <p>Where:</p>
                     <p>A = Area</p>
                     <p>a = Base</p>
@@ -135,7 +137,7 @@
                     <h3 class="formula">Formula :</h3>
                     <p class="subformula">C = 2 x (side a + side b)</p>
                 </div>
-                <div>
+                <div class="where-condition">
                     <p>Where:</p>
                     <p>C = Circumference</p>
                     <p>a = side a</p>
@@ -161,4 +163,7 @@
     <footer>
         <p class="footer">©2023 Arief Wicaksono ・ RevoU - Assignment : Fundamental Course Software Engineering</p>
 </body>
+
+<script src="JS/index.js"></script>
+
 </html>
